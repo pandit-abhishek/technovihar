@@ -14,7 +14,7 @@ npm-debug.log
 application/composer.lock
 
 ### https://github.com/github/gitignore/blob/master/CodeIgniter.gitignore ###
-*/config/development
+#*/config/development
 */logs/log-*.php
 */logs/!index.html
 */cache/*
