@@ -113,7 +113,7 @@ application/                    --- Main CodeIgniter source files
             views/              --- Views for Admin Panel; can reuse Frontend views, or override by using same path/filename
         adminlte/               --- Module with AdminLTE widgets
         api/                    --- Another module specific for API endpoints
-    third_party/				--- 3rd party files (HMVC extension, Grocery CRUD, Rest Server, etc.)
+    third_party/                --- 3rd party files (HMVC extension, Grocery CRUD, Rest Server, etc.)
     views/                      --- Views for Frontend Website, can also be used by modules unless overrided
 assets/                         --- Folder for public files
     api/                        --- Swagger UI assets

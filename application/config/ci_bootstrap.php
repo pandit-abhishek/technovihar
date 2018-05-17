@@ -36,7 +36,10 @@ $config['ci_bootstrap'] = array(
 		),
 		'foot'	=> array(
 			'assets/dist/frontend/lib.min.js',
-			'assets/dist/frontend/app.min.js'
+			'assets/dist/frontend/app.min.js',
+			'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js',
+			'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js',
+			'assets/dist/frontend/custom.js'
 		),
 	),
 
@@ -44,7 +47,11 @@ $config['ci_bootstrap'] = array(
 	'stylesheets' => array(
 		'screen' => array(
 			'assets/dist/frontend/lib.min.css',
-			'assets/dist/frontend/app.min.css'
+			'assets/dist/frontend/app.min.css',
+			'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css',
+			'https://fonts.googleapis.com/css?family=Open+Sans',
+			'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+			'assets/dist/frontend/style.css'
 		)
 	),
 
@@ -53,26 +60,26 @@ $config['ci_bootstrap'] = array(
 	
 	// Multilingual settings
 	'languages' => array(
-		'default'		=> 'en',
-		'autoload'		=> array('general'),
-		'available'		=> array(
-			'en' => array(
-				'label'	=> 'English',
-				'value'	=> 'english'
-			),
-			'zh' => array(
-				'label'	=> '繁體中文',
-				'value'	=> 'traditional-chinese'
-			),
-			'cn' => array(
-				'label'	=> '简体中文',
-				'value'	=> 'simplified-chinese'
-			),
-			'es' => array(
-				'label'	=> 'Español',
-				'value' => 'spanish'
-			)
-		)
+		// 'default'		=> 'en',
+		// 'autoload'		=> array('general'),
+		// 'available'		=> array(
+		// 	'en' => array(
+		// 		'label'	=> 'English',
+		// 		'value'	=> 'english'
+		// 	),
+		// 	'zh' => array(
+		// 		'label'	=> '繁體中文',
+		// 		'value'	=> 'traditional-chinese'
+		// 	),
+		// 	'cn' => array(
+		// 		'label'	=> '简体中文',
+		// 		'value'	=> 'simplified-chinese'
+		// 	),
+		// 	'es' => array(
+		// 		'label'	=> 'Español',
+		// 		'value' => 'spanish'
+		// 	)
+		// )
 	),
 
 	// Google Analytics User ID
