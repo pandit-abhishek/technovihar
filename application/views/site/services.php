@@ -34,7 +34,7 @@
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<img src="images/banner.png" class="img-responsive">
+					<img src="assets/dist/images/banner.png" class="img-responsive">
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 service-blog ser-right">
 					<div>
